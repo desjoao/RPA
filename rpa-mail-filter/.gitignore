@@ -1,0 +1,6 @@
+dist/
+build/
+venv/
+credentials.json
+token.json
+log_rpa-mail-filter.txt
