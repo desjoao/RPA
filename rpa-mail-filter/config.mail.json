@@ -1,0 +1,29 @@
+{
+    "planilha":{
+        "caminho": "./candidatos.xlsx"
+    },
+    
+    "pastas_candidatos":{
+        "caminho": "./curriculos"
+    },
+
+    "ajuste_fino":{
+        "assunto_email": "candidatura",
+        "tamanho_lote": "10"
+    },
+
+    "API":{
+        "Google":{
+            "get_messages":"/gmail/v1/users/{userId}/messages",
+            "scopes": ["https://www.googleapis.com/auth/gmail.modify"],
+            "token_file": "./token.json",
+            "credentials_file": "./credentials.json"
+        },
+        
+        "Microsoft":{
+            "API_URL":"",
+            "usuario":"",
+            "senha": ""
+        }
+    }
+}
