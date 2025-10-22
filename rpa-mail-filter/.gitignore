@@ -4,3 +4,5 @@ venv/
 credentials.json
 token.json
 log_rpa-mail-filter.txt
+__pycache__/
+curriculos/
