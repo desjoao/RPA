@@ -1,18 +1,18 @@
 # RPA - Mail_Filter (Case Líber)
 
 ## 1. Sobre
-A automação realiza uma filtragem e processamento de e-mails recebidos para aplicações a vagas de emprego. Caso o e-mail venha em um formato prestabelecido, contendo nome, telefone, vaga de aplicação e documento de CV em anexo, a automação:
+A automação realiza uma filtragem e o processamento de e-mails recebidos para aplicações a vagas de emprego. Caso o e-mail venha em um formato prestabelecido, contendo nome, telefone, vaga de aplicação e documento de CV em anexo, a automação:
 
-    1 - ​ ​Lê os e-mails recebidos com o assunto: “Candidatura – [Nome da Vaga]”;​
+    1 -​ ​Lê os e-mails recebidos com o assunto: “Candidatura – [Nome da Vaga]”;​
     
     2 -​ ​Salva os arquivos PDF dos currículos em uma pasta específica com o​ nome do candidato;
     
     3 -​ ​Registra os dados do candidato (nome, vaga e telefone) em uma planilha​ do Excel.
 
 ## 2. Tecnologias utilizadas
-A automação foi feita com Python com uso de API para o gmail. O motivo se deu a vasta gama de bibliotecas disponíveis em Python para se criar um script de automação de processos e pela liberdade de criação que essa linguagem de programação proporciona. 
+A automação foi feita com Python com uso de API para o gmail. O motivo se deu pela vasta gama de bibliotecas disponíveis em Python para se criar um script de automação de processos, assim como pela liberdade de desenvolvimento que essa linguagem de programação proporciona em relação a ferramentas low-code/no-code. 
 
-A automação pode ser utilizada sem a necessidade de um ambiente Python instalado na máquina do usuário, sendo necessários apenas o arquivo executável do RPA, os arquivos de dados que são lidos na execução do RPA (json e xlsx) e uma conta cadastrada no gmail.
+A automação pode ser utilizada sem a necessidade de um ambiente Python instalado na máquina do usuário, para isso sendo necessários apenas o arquivo executável do RPA, os arquivos de dados que são lidos na execução do RPA (json e xlsx) e uma conta cadastrada no gmail.
 
 Por não possuir monitoramento ativo da caixa de entrada do e-mail do usuário, a automação deve ser programada para ser executada pelo agendador de tarefas em intervalos de tempo, definidos pelo usuário.
 
